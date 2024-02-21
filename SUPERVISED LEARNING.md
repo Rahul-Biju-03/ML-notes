@@ -167,3 +167,5 @@ averaging - take avg of predictions.
 weighted averaging -models are assigned weights. Higher weight-more importance.
 soft voting takes the average value(average voting)
 hard voting is majority voting
+
+Bagging
