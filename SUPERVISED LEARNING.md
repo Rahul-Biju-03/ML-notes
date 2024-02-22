@@ -177,18 +177,18 @@ Most of the deep learning is unsupervised.
 Egs- 'K means clustering' and 'PCA'
 Clustering- group similar data based on certain criteria.
 
-### K MEANS CLUSTERING
+## K MEANS CLUSTERING
 
-## application-
+### application-
 customer segmentation
 medicine
 psychology
 
-## definition
+### definition
 Data organised into distint groups having centroids(mean values)
 k = no of clusters
 
-## steps
+### steps
 1)choose value of k
 2)initialise centroids/mean randomly in each of the clusters.
 3)calculate euclidean distance of each data pt with all centroids.
@@ -196,7 +196,7 @@ k = no of clusters
 5)recalculate mean of each cluster and we will get a new centroid for each cluster. Recalculate euclidean distance again. Due to this data pts may change their clusters.
 6)Repeat step 5.
 
-## Mathematical aspect
+### Mathematical aspect
 1)if k=2 => k1 and k2.
 2)C1=16,C2=22
 3)data pt=15 
@@ -208,7 +208,7 @@ k = no of clusters
   ED=sqrt((19-15.33^2)=3.07 (C1)
 6)data pts gets changed again and we get new centroids. Calculste ED again.
 
-## How to choose optimal k
+### How to choose optimal k
 
 improper selection-erroneous assignment
 
@@ -221,3 +221,23 @@ elbow method used-
 SSW decrease as no. of clusters decrease. 
 do elbow method until u get elbow pt.
 
+### TYPES OF CLUSTERING
+
+Centroid clustering
+Hierarchial clustering
+
+## DIMENSIONALITY
+
+definition-
+no of attributes in dataset.
+as dimension increases, data increases.Distance bw data pts increase.
+more features = high dimensionality = higher redundancy
+
+### DIMENSIONALITY REDUCTION
+
+produce low dimensional encoding of high dimensional data set.
+helps in visualisation,finding structure in data.
+
+### PCA
+
+used for DIMENSIONALITY REDUCTION.
