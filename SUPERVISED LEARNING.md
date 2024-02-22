@@ -170,3 +170,54 @@ hard voting is majority voting
 
 Bagging
 
+## UNSUPERVISED LEARNING
+
+Dont need data to be labeled.
+Most of the deep learning is unsupervised.
+Egs- 'K means clustering' and 'PCA'
+Clustering- group similar data based on certain criteria.
+
+### K MEANS CLUSTERING
+
+## application-
+customer segmentation
+medicine
+psychology
+
+## definition
+Data organised into distint groups having centroids(mean values)
+k = no of clusters
+
+## steps
+1)choose value of k
+2)initialise centroids/mean randomly in each of the clusters.
+3)calculate euclidean distance of each data pt with all centroids.
+4)data pts are assigned to clusters with are nearest to its respective centroids.
+5)recalculate mean of each cluster and we will get a new centroid for each cluster. Recalculate euclidean distance again. Due to this data pts may change their clusters.
+6)Repeat step 5.
+
+## Mathematical aspect
+1)if k=2 => k1 and k2.
+2)C1=16,C2=22
+3)data pt=15 
+  ED= sqrt((15-16)^2)=1 (C1)
+  ED=sqrt((15-22)^2)=7  (C2)
+4)here data pt 15 is assigned to C1
+5)new centroid of C1=(15+15+15)/3=15.33
+                  C2=36.25
+  ED=sqrt((19-15.33^2)=3.07 (C1)
+6)data pts gets changed again and we get new centroids. Calculste ED again.
+
+## How to choose optimal k
+
+improper selection-erroneous assignment
+
+SSW-sum of squared within clusters (inside it)
+SSB-sum of squared between clusters
+SSW should be least
+SSB should be max.
+
+elbow method used-
+SSW decrease as no. of clusters decrease. 
+do elbow method until u get elbow pt.
+
