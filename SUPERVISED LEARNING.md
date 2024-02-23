@@ -264,7 +264,7 @@ True Negative Rate (TNR): Ratio of true negatives to actual number of negatives.
 
 ROC (Receiver Operating Characteristic): Plot between True Positive Rate (TPR) (y-axis) and False Positive Rate (FPR) (x-axis).
 
-AUC (Area Under Curve): Area enclosed by the ROC curve and the axes as boundaries. Used for binary classifications.
+AUC (Area Under Curve): Area enclosed by the ROC curve and the axes as boundaries. Used for binary classifications. AUC SHOULD BE HIGHER THAN 0.8
 
 PRC (Precision-Recall Curve): Used for unbalanced data sets and when the number of negatives is greater than the number of positives. Precision on the y-axis and recall on the x-axis.
 
