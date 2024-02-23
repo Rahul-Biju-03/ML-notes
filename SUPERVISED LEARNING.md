@@ -241,3 +241,38 @@ helps in visualisation,finding structure in data.
 ### PCA
 
 used for DIMENSIONALITY REDUCTION.
+
+## PERFORMANCE METRICS
+
++ Depends on:
+task type
+desired outcome
+
++ Types in Classification:
+
+Accuracy: Ratio of correct instances to total instances. [FOR BALANCED DATA SET]
+
+Precision: Ratio of correctly predicted positive instances to all predicted positive instances. [FOR IMBALANCED DATA SET] Used where we need to know false positives.
+
+Recall: Ratio of correctly predicted positive instances to all actual positive instances.
+
+F1 Score: Harmonic mean of precision and recall.
+
+False Positive Rate (FPR): Ratio of false positives to actual number of negatives.
+
+True Negative Rate (TNR): Ratio of true negatives to actual number of negatives.
+
+ROC (Receiver Operating Characteristic): Plot between True Positive Rate (TPR) (y-axis) and False Positive Rate (FPR) (x-axis).
+
+AUC (Area Under Curve): Area enclosed by the ROC curve and the axes as boundaries. Used for binary classifications.
+
+PRC (Precision-Recall Curve): Used for unbalanced data sets and when the number of negatives is greater than the number of positives. Precision on the y-axis and recall on the x-axis.
+
+    
++ Types in Regression:
+
+MSE- Mean squared error ( sensitive to outliers)
+RMSE-Root Mean squared error 
+MAE-Mean absolute error (avoids outliers)
+R squared (coeff of determination)-proportion of variance in target variable
+Use the first 2 if there is not much data.
